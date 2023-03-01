@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currículum Vitae - Mariana Cepeda</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+        <script src="funciones.js"></script>
+
+    </head>
+    <body>
+         <header>
+            <div>
+                <h1>🌈 Mariana Cepeda</h1>
+                <p>Analista de Marketing Digital 📈</p>
+            </div>
+            <img class="perfil" src="mc.png" alt="Foto de perfil">
+        </header>
+        <nav>
+            <ul>
+                <div class="tabs">
+                <li><button class="resumen" onclick="openTab(event,'resumen')">👋 Resumen profesional</a></li>
+                <li><button class="#experiencia" onclick="openTab(event, 'experiencia')">💼 Experiencia laboral</a></li>
+                <li><button class="#educacion" onclick="openTab(event, 'educacion')">🎓 Educación</a></li>
+                <li><button class="#habilidades" onclick="openTab(event, 'habilidades')">⚒️ Habilidades</a></li>
+                <li><button class="#contacto" onclick="openTab(event, 'contacto')">🤙 Contacto</a></li>   
+                </div>            
+            </ul>
+        </nav>
+        <div id="resumen" class="tabcontent">
+            <h2 id="resumen">Resumen profesional</h2>
+            <p>¡Hola! 👋 Soy Maru, asistente administrativa con nociones de marketing online 📈.
+                Me entusiasma explorar nuevas tecnologías que ayuden a optimizar la productividad mediante la automatización de tareas y una gestión eficiente de proyectos 🚀.
+                Mi mayor motivación laboral es lograr una verdadera diferencia en la empresa para la que trabajo y me encanta ver cómo mis ideas y creatividad pueden tener un impacto real en el éxito del negocio.
+                Hablemos! 😊</p>
+            </div>
+            <div id="experiencia" class="tabcontent">
+                <h2 id="experiencia">💼 Experiencia laboral</h2>
+            <ul>
+                <li>
+                    <h4>Asistente administrativa - Empresa Platense (2019-actualidad)</h4>
+                    <ul>
+                        <li>Gestión de la documentación y organización de procesos internos mediante herramientas de gestión de proyectos y automatización de tareas.</li>
+                        <li>Responsable de la comunicación interna y externa de la empresa, creando campañas de correo electrónico y redes sociales.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Asistente de Marketing - Silver Agency (2020- 2021)</h4>
+                    <ul>
+                        <li>Ayuda en la creación de contenido para redes sociales y blogs.</li> 
+                        <li>Participación en la organización de eventos y en la gestión de campañas publicitarias.</li>
+                    </ul> 
+                </li> 
+            </ul>
+        </div>
+        <div id="educacion" class="tabcontent">
+        <h2 id="educacion">🎓 Educación</h2>
+            <ul>
+                <li>
+                    <h4>Licenciatura en Administración de Empresas - Universidad Nacional de La Plata</h4>
+                    <p>En curso 75% de la carrera</p>
+                </li>
+                <li>
+                    <h4>Analista en Marketing Digital - Educación IT</h4>
+                    <p>Realizado en 2020</p>
+                </li>
+            </ul>
+        </div>
+        <div id="habilidades" class="tabcontent">
+        <h2 id="habilidades">⚒️ Habilidades</h2>
+            <ul>
+                <li>Marketing digital</li>
+                <li>Publicidad en línea</li>
+                <li>Redacción de contenido</li>
+            </ul>
+        </div>
+        <div id="contacto" class="tabcontent">
+        <h2 id="contacto">🤙 Contacto</h2>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:cepedamariana+cv@gmail.com">maru@gmail.com</a></li>
+                <li><strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=5492214777669">AR 221 111-1111</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/cepedamariana/">Maru Cepeda</a></li>
+            </ul>
+        </div>
+
+        <button onclick="myFunction()">Modo Oscuro</button>
+    
+        <footer>
+            <p>Derechos de autor © 2023 CV by Maru</p>
+        </footer>
+    </body>
+</html>
