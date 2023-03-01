@@ -1,0 +1,87 @@
+/* Estilos CSS para el currículum vitae */
+body {
+    font-family: 'Tilt Neon', cursive;
+    font-size: 16px;
+    line-height: 1.5;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+    color: #fff;
+}
+h1, h2, h4 {
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    margin: 0 10px;
+}
+.perfil {
+    width: 150px;
+    border-radius: 50%;
+}
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos CSS aquí */
+    body {
+    background-color: white;
+    color: black;
+    }
+
+    .dark-mode {
+    background-color: black;
+    color: white;
+    }
+
+    /* Ocultar todas las secciones de contenido */
+.tabcontent {
+    display: none;
+  }
+  
+  /* Estilos de los botones de la pestaña */
+  .tablink {
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  /* Estilo del botón seleccionado */
+  .tablink.active {
+    background-color: #ccc;
+  }
+  
+  /* Estilo del contenido de la pestaña activa */
+  .tabcontent.active {
+    display: block;
+  }
